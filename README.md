@@ -39,7 +39,7 @@ You can import this SDK in your Golang project:
 ```go
 import (
   "fmt"
-  "github.com/huobirdcenter/huobi_golang/pkg/client"
+  "github.com/song-without-words/huobi_Golang/pkg/client"
 )
 
 // Get the timestamp from Huobi server and print on console

@@ -1,10 +1,10 @@
 package marketclientexample
 
 import (
-	"github.com/huobirdcenter/huobi_golang/config"
-	"github.com/huobirdcenter/huobi_golang/logging/applogger"
-	"github.com/huobirdcenter/huobi_golang/pkg/client"
-	"github.com/huobirdcenter/huobi_golang/pkg/model/market"
+	"github.com/song-without-words/huobi_Golang/config"
+	"github.com/song-without-words/huobi_Golang/logging/applogger"
+	"github.com/song-without-words/huobi_Golang/pkg/client"
+	"github.com/song-without-words/huobi_Golang/pkg/model/market"
 )
 
 func RunAllExamples() {
@@ -17,7 +17,7 @@ func RunAllExamples() {
 	getLast24hCandlestick()
 }
 
-//  Get the candlestick/kline for the btcusdt. The specified data number is 10 .
+// Get the candlestick/kline for the btcusdt. The specified data number is 10 .
 func getCandlestick() {
 	client := new(client.MarketClient).Init(config.Host)
 
@@ -32,7 +32,7 @@ func getCandlestick() {
 	}
 }
 
-//  Get the latest ticker with some important 24h aggregated market data for btcusdt.
+// Get the latest ticker with some important 24h aggregated market data for btcusdt.
 func getLast24hCandlestickAskBid() {
 	client := new(client.MarketClient).Init(config.Host)
 
@@ -44,7 +44,7 @@ func getLast24hCandlestickAskBid() {
 	}
 }
 
-//  Get the latest tickers for all supported pairs
+// Get the latest tickers for all supported pairs
 func getLast24hCandlesticks() {
 	client := new(client.MarketClient).Init(config.Host)
 
@@ -59,7 +59,7 @@ func getLast24hCandlesticks() {
 	}
 }
 
-//  Get the current order book of the btcusdt.
+// Get the current order book of the btcusdt.
 func getDepth() {
 	optionalRequest := market.GetDepthOptionalRequest{10}
 	client := new(client.MarketClient).Init(config.Host)
@@ -78,7 +78,7 @@ func getDepth() {
 	}
 }
 
-//  Get the latest trade with btucsdt price, volume, and direction.
+// Get the latest trade with btucsdt price, volume, and direction.
 func getLatestTrade() {
 	client := new(client.MarketClient).Init(config.Host)
 
@@ -92,7 +92,7 @@ func getLatestTrade() {
 	}
 }
 
-//  Get the most recent trades with btcusdt price, volume, and direction.
+// Get the most recent trades with btcusdt price, volume, and direction.
 func getHistoricalTrade() {
 	client := new(client.MarketClient).Init(config.Host)
 	optionalRequest := market.GetHistoricalTradeOptionalRequest{5}
@@ -108,7 +108,7 @@ func getHistoricalTrade() {
 	}
 }
 
-//  Get the summary of trading in the market for the last 24 hours.
+// Get the summary of trading in the market for the last 24 hours.
 func getLast24hCandlestick() {
 	client := new(client.MarketClient).Init(config.Host)
 

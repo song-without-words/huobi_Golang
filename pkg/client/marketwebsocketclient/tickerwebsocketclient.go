@@ -3,9 +3,9 @@ package marketwebsocketclient
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/huobirdcenter/huobi_golang/logging/applogger"
-	"github.com/huobirdcenter/huobi_golang/pkg/client/websocketclientbase"
-	"github.com/huobirdcenter/huobi_golang/pkg/model/market"
+	"github.com/song-without-words/huobi_Golang/logging/applogger"
+	"github.com/song-without-words/huobi_Golang/pkg/client/websocketclientbase"
+	"github.com/song-without-words/huobi_Golang/pkg/model/market"
 )
 
 // Responsible to handle ticker data from WebSocket

@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/huobirdcenter/huobi_golang/internal/gzip"
-	"github.com/huobirdcenter/huobi_golang/internal/model"
-	"github.com/huobirdcenter/huobi_golang/internal/requestbuilder"
-	"github.com/huobirdcenter/huobi_golang/logging/applogger"
-	"github.com/huobirdcenter/huobi_golang/pkg/model/auth"
-	"github.com/huobirdcenter/huobi_golang/pkg/model/base"
+	"github.com/song-without-words/huobi_Golang/internal/gzip"
+	"github.com/song-without-words/huobi_Golang/internal/model"
+	"github.com/song-without-words/huobi_Golang/internal/requestbuilder"
+	"github.com/song-without-words/huobi_Golang/logging/applogger"
+	"github.com/song-without-words/huobi_Golang/pkg/model/auth"
+	"github.com/song-without-words/huobi_Golang/pkg/model/base"
 )
 
 const (

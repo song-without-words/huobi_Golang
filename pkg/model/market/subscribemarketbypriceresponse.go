@@ -1,8 +1,8 @@
 package market
 
 import (
-	"github.com/huobirdcenter/huobi_golang/pkg/model/base"
 	"github.com/shopspring/decimal"
+	"github.com/song-without-words/huobi_Golang/pkg/model/base"
 )
 
 type SubscribeMarketByPriceResponse struct {

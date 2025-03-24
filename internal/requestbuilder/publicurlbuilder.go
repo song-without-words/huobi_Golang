@@ -2,7 +2,7 @@ package requestbuilder
 
 import (
 	"fmt"
-	"github.com/huobirdcenter/huobi_golang/pkg/model"
+	"github.com/song-without-words/huobi_Golang/pkg/model"
 )
 
 type PublicUrlBuilder struct {

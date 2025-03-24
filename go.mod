@@ -1,4 +1,4 @@
-module github.com/huobirdcenter/huobi_golang
+module github.com/song-without-words/huobi_Golang
 
 go 1.22.0
 

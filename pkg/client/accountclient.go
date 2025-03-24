@@ -5,10 +5,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/huobirdcenter/huobi_golang/internal"
-	"github.com/huobirdcenter/huobi_golang/internal/requestbuilder"
-	"github.com/huobirdcenter/huobi_golang/pkg/model"
-	"github.com/huobirdcenter/huobi_golang/pkg/model/account"
+	"github.com/song-without-words/huobi_Golang/internal"
+	"github.com/song-without-words/huobi_Golang/internal/requestbuilder"
+	"github.com/song-without-words/huobi_Golang/pkg/model"
+	"github.com/song-without-words/huobi_Golang/pkg/model/account"
 )
 
 // Responsible to operate account

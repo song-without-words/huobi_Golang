@@ -1,6 +1,6 @@
 package order
 
-import "github.com/huobirdcenter/huobi_golang/pkg/model/base"
+import "github.com/song-without-words/huobi_Golang/pkg/model/base"
 
 type SubscribeTradeClearResponse struct {
 	base.WebSocketV2ResponseBase
